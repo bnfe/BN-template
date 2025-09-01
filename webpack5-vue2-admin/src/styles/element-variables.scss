@@ -1,0 +1,14 @@
+// TODO 需要sass版本锁死 1.32.13
+// https://stackoverflow.com/questions/67640614/laravel-mix-bootstrap-deprecation-warning-using-for-division-is-deprecated
+
+/* color */
+$--color-primary: #3e65ec;
+$--color-success: #00b5ba;
+$--color-warning: #ff9c42;
+$--color-danger: #f85151;
+$--color-info: #909399;
+
+/* 字体路径变量 */
+$--font-path: "~element-ui/lib/theme-chalk/fonts";
+
+@import "~element-ui/packages/theme-chalk/src/index";
