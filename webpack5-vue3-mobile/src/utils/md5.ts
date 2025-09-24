@@ -5,8 +5,8 @@ import qs from "qs";
 export const md5 = (string: string): string => MD5(string).toString().toLocaleLowerCase();
 
 const baseParams: Record<string, any> = {
-  app_key: "5lOrfCGW",
-  app_secret: "6dfzNDNkyi",
+  app_key: "",
+  app_secret: "",
 };
 
 const SIGN_HEADER = (): Record<string, string> => {
