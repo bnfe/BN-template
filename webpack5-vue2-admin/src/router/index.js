@@ -3,12 +3,10 @@ import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
 /**
- * https://panjiachen.github.io/vue-element-admin-site/zh/guide/essentials/router-and-nav.html
  * constantRoutes 一个没有权限要求的基页可以访问所有角色
  * hidden: true 该路由不会在侧边栏出现
  * alwaysShow: true 这样它就会忽略之前定义的规则，一直显示根路由
  *
- * noCache: true 如果设置为true，页面将不会被缓存（默认为false）
  * affix: true 如果设置为true，标签将附加在标签视图中
  * activeMenu: '/example/list' 如果设置路径，侧边栏将突出显示您设置的路径
  */

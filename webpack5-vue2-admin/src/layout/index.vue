@@ -7,7 +7,7 @@
       <div class="main-container">
         <transition name="fade-transform" mode="out-in">
           <keep-alive :include="cachedViews">
-            <router-view :key="key" />
+            <router-view :key="$route.fullPath" />
           </keep-alive>
         </transition>
       </div>
